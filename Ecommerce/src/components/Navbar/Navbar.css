@@ -1,0 +1,82 @@
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0px 1px  3px -2px black;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.nav-logo .logo {
+  cursor: pointer;
+ 
+}
+
+.nav-logo p {
+  color: #171717;
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+}
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.navbar-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.login-btn button {
+  
+  width: 137px;
+  height: 44px;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid #7a7a7a;
+  font-size: 20px;
+  font-weight: 500;
+  color: #515151;
+  background: #fff;
+  cursor: pointer;
+}
+.login-btn button:active {
+  background: #f3f3f3;
+}
+.login-btn {
+  display: flex;
+  align-items: center;
+ gap: 45px;
+}
+.navbar-menu hr {
+  background-color: #ff4141;
+  width: 80%;
+  height: 3px;
+  border: none;
+  border-radius: 50px;
+}
+.login-btn .count {
+  width: 22px ;
+  height: 22px;
+  background: red;
+  color: white;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
